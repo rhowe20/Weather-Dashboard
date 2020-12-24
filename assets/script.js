@@ -5,7 +5,6 @@ $("#add-city").on("click", function(event) {
     event.preventDefault();
 
     var cities = $("#weather-input").val().trim();
-
     city.push(cities);
     console.log(city)
 
@@ -46,6 +45,4 @@ $.ajax({
   
 }
 
-  // create an ajax function for city searched
-  // Display city searched information
-  //store that info in local storage
+// store city info to local storage
