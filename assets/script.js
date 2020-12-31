@@ -16,8 +16,7 @@ function displayWeather(){
 
 var APIKey = "a91b1f169fce3b21f384396ac0114bf5";
 
-var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
-"q=" + city + "&appid=" + APIKey;
+var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
 
 $.ajax({
   url: queryURL,
@@ -45,4 +44,11 @@ $.ajax({
   
 }
 
-// store city info to local storage
+// After search of city, display weather information onto page
+//          - Temp, humidity, wind speed, and UV index
+// display current day weather info
+// display 5-day forecast
+//          - Temp and humidity
+// store searched city to local storage
+// keep past searched cities onto page
+// Current and future dates
