@@ -9,18 +9,22 @@
 </head>
 <body>
     <h1 class="row bg-warning justify-content-center pb-3 pt-3 text-white">Weather Dashboard</h1>
-    <div class = "containter">
-    <form id="weather-form">
+    <form id="weather-form col-2">
         <input id="add-city" type="submit" value="Search">
-      <input type="text" id="weather-input"><br>
+    <input type="text" id="weather-input"><br>
     </form>
-    <div class="city"></div>
-    <div class="wind"></div>
-    <div class="humidity"></div>
-    <div class="temp"></div>
+    <div class = "container">
+    <section class = "row">
+        <div class="city weather"></div>
+        <div class="wind weather"></div>
+        <div class="humidity weather"></div>
+        <div class="temp weather"></div>
+    </section>
+    <div class = "five-day row"></div>
     </div>
-
+    <div class = "searched-area"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js'></script>
     <script type="text/javascript" src="./assets/script.js"></script>
     <script src="" async defer></script>
 </body>

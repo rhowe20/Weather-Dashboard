@@ -1,5 +1,14 @@
 body{
-    background-image: url('https://cdn.hipwallpaper.com/i/50/34/weBIkV.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp4555534.jpg');
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+.test{
+    background-color: black;
+}
+
+.weather{
+    text-align: center;
+    color: white;
 }
