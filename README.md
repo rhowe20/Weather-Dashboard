@@ -12,7 +12,7 @@ https://rhowe20.github.io/Weather-Dashboard/
 
 Use the search bar to search for any city the user wants.
 
-!['Homepage'](https://github.com/rhowe20/Weather-Dashboard/blob/main/assets/images/homepage.png
+!['Homepage'](https://github.com/rhowe20/Weather-Dashboard/blob/main/assets/images/homepage.png)
 
 The searched city then shows up on the lefthand side of the page where the user can select it again at a future date.
 
