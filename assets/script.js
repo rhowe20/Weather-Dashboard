@@ -77,7 +77,7 @@ function diaplayFiveDay (data) {
         </div>
         `;
     }
-    $('#row-3').html(html);
+    $('#5-day').html(html);
 }
 
 function forecastDisplay(data) {
@@ -121,10 +121,10 @@ function cityButtons () {
         html+=`<button type='button' class='list-group-item list-group-item-action'>${cityChoice}</button>`;
     }
     $('#city-buttons').html(html);
-    $('#city-buttons button').click(clickSavedCityButtons)
+    $('#city-buttons button').click(savedCity)
 }
 
-function clickSavedCityButtons () {
+function savedCity () {
     var cityChoice = $(this).text();
     city(cityChoice);
 }
